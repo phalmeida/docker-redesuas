@@ -1,0 +1,6 @@
+web:
+  build: .
+  ports:
+    - "80:80"
+  volumes:
+    - /c/Users/philipe.almeida/Code:/srv/www/htdocs
