@@ -3,4 +3,6 @@ web:
   ports:
     - "80:80"
   volumes:
-    - /c/Users/philipe.almeida/Code:/srv/www/htdocs
+    - ./:/srv/www/htdocs
+  environment:
+    XDEBUG_CONFIG: remote_host=10.221.1.153
